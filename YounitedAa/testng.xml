@@ -5,6 +5,11 @@
     <classes>
       <class name="com.younited.qa.testcases.LoginPageTest"/>
       <class name="com.younited.qa.testcases.HomePageTest"/>
+      <class name="com.younited.qa.testcases.MyAssignmentsPageTest"/>
+      <class name="com.younited.qa.testcases.AssignmentsPageFreeTest"/>
+      <class name="com.younited.qa.testcases.StorePageFreeTest"/>
+      <class name="com.younited.qa.testcases.CommunityPageFreeTest"/>
+      <class name="com.younited.qa.testcases.EntrepreneursPageFreeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
