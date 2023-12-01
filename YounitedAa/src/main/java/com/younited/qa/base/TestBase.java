@@ -20,8 +20,8 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop=new Properties();
-			FileInputStream ip=new FileInputStream("C:/Users/tbutani/git/YounitedAa/YounitedAa/src/"
-					+ "main/java/com/younited/qa/config/config.properties");
+			FileInputStream ip=new FileInputStream("C:\\Users\\tbutani\\git\\YounitedAa\\YounitedAa\\src\\"
+					+ "main\\java\\com\\younited\\qa\\config\\config.properties");
 			prop.load(ip);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
