@@ -35,7 +35,7 @@ public class HomePageTest extends TestBase{
 		testUtil.testWaitEight();
 		homePage.clickAcceptAllCookies();
 		testUtil.testWaitEight();
-		testUtil.testWaitTwo();
+		//testUtil.testWaitTwo();
 				
 	}
 	
