@@ -7,10 +7,18 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="clickMyAssignmentsLinkTest"/>
           <include name="verifyImageLogoTest"/>
         </methods>
       </class> <!-- com.younited.qa.testcases.HomePageTest -->
+      <class name="com.younited.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="imageLogoTest"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.younited.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
