@@ -5,8 +5,10 @@
     <classes>
       <class name="com.younited.qa.testcases.HomePageTest">
         <methods>
+          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="clickMyAssignmentsLinkTest"/>
           <include name="verifyImageLogoTest"/>
         </methods>
       </class> <!-- com.younited.qa.testcases.HomePageTest -->
